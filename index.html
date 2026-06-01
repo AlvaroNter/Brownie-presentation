@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brownie · Evolución Web con Shopify</title>
+  <meta name="description" content="Propuesta de nuevas funcionalidades de Shopify para Brownie: merchandising visual, flexibilidad de pago, fidelización y marketing omnicanal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__brand">Brownie</a>
+    <nav class="nav__links">
+      <a href="#merchandising">Merchandising</a>
+      <a href="#pagos">Pagos</a>
+      <a href="#fidelizacion">Fidelización</a>
+      <a href="#marketing">Marketing</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__inner reveal">
+      <p class="hero__eyebrow">Propuesta de evolución web · Shopify</p>
+      <h1 class="hero__title">Nuevas funcionalidades<br />para hacer crecer <em>Brownie</em></h1>
+      <p class="hero__lead">
+        Una selección de capacidades nativas y avanzadas de Shopify pensadas para mejorar
+        la experiencia de cada clienta, aumentar el ticket medio y fidelizar a largo plazo.
+      </p>
+      <a href="#merchandising" class="hero__cta">Descubrir las funcionalidades</a>
+    </div>
+    <div class="hero__scroll" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- INTRO / PILARES -->
+  <section class="pillars">
+    <div class="pillars__grid">
+      <article class="pillar reveal">
+        <span class="pillar__num">01</span>
+        <h3>Merchandising y catálogo visual</h3>
+        <p>Presentar el producto de forma más rica y vender conjuntos completos.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">02</span>
+        <h3>Flexibilidad de compra y pagos</h3>
+        <p>Opciones de pago diferido, preventas y complementos en el carrito.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">03</span>
+        <h3>Retención y fidelización</h3>
+        <p>Crédito en tienda, upsells y tarjetas regalo que retienen el valor.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">04</span>
+        <h3>Expansión y marketing omnicanal</h3>
+        <p>Campañas integradas y alianzas entre marcas sin riesgo de inventario.</p>
+                <a class="feature__doc" href="https://shopify.dev/docs/apps/build/collective" target="_blank" rel="noopener">Documentación oficial</a>
+
+      </article>
+    </div>
+  </section>
+
+  <!-- 1. MERCHANDISING -->
+  <section class="block" id="merchandising">
+    <div class="block__head reveal">
+      <span class="block__index">01 — Merchandising y catálogo visual</span>
+      <h2>Mostrar mejor cada prenda</h2>
+    </div>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag tag--plus">Shopify Plus</span>
+        <h3 class="feature__title">Listados combinados</h3>
+        <p class="feature__desc">
+          Conecta productos independientes —que se diferencian por una opción como el color o el
+          material— en una única ficha "padre". En el escaparate se muestran como variantes, pero
+          cada hijo conserva su propio título, descripción, galería de imágenes y URL.
+        </p>
+        <p class="feature__desc">
+          El resultado: una navegación más limpia para la clienta, fichas más completas y mejor
+          posicionamiento SEO, ya que cada color o acabado mantiene su propia página indexable.
+        </p>
+        <a class="feature__doc" href="https://help.shopify.com/en/manual/products/combined-listings-app" target="_blank" rel="noopener">Documentación oficial</a>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Ejemplo retail</span>
+          Un mismo vestido disponible en 4 colores en una sola página, donde cada color
+          conserva su propia galería de fotos y su URL.
+        </li>
+      </ul>
+    </article>
+
+    <article class="feature feature--media reveal">
+      <div class="feature__body">
+        <div class="feature__meta">
+          <span class="tag">Product Bundles</span>
+          <h3 class="feature__title">Packs de productos</h3>
+          <p class="feature__desc">
+            Función nativa y gratuita que permite crear packs fijos y multipacks directamente desde
+            el admin de Shopify, vendiendo varios artículos como una sola unidad de compra.
+          </p>
+          <p class="feature__desc">
+            Es una palanca directa sobre el ticket medio (AOV): facilita la venta de conjuntos
+            completos, ayuda a dar salida a inventario de rotación lenta y simplifica la decisión de
+            compra de la clienta, que añade todo el look de una vez.
+          </p>
+          <a class="feature__doc" href="https://help.shopify.com/en/manual/products/bundles" target="_blank" rel="noopener">Documentación oficial</a>
+        </div>
+        <ul class="feature__examples">
+          <li>
+            <span class="ex__label">Total Look</span>
+            Pantalón + blusa + cinturón que se añaden al carrito con un solo clic.
+          </li>
+          <li>
+            <span class="ex__label">Mix &amp; Match</span>
+            La clienta elige 3 camisetas básicas de distintos colores por un precio cerrado.
+          </li>
+        </ul>
+      </div>
+      <figure class="feature__media">
+        <img src="bundles.webp" alt="Checkout de Shopify con un pack de tres productos agrupados bajo una sola línea de pedido" loading="lazy" />
+        <figcaption>El pack se presenta como una única línea en el carrito, con sus componentes desglosados.</figcaption>
+      </figure>
+    </article>
+  </section>
+
+  <!-- 2. PAGOS -->
+  <section class="block block--alt" id="pagos">
+    <div class="block__head reveal">
+      <span class="block__index">02 — Flexibilidad de compra y pagos</span>
+      <h2>Comprar a su ritmo</h2>
+    </div>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag">Try Before You Buy · Pre-orders</span>
+        <h3 class="feature__title">Try Before You Buy · Pre-orders</h3>
+        <p class="feature__desc">
+          Opciones de compra con pago y envío diferidos. Shopify guarda de forma segura el método
+          de pago de la clienta, lo que permite cobrar un depósito por adelantado y el resto más
+          tarde, sin necesidad de volver a contactarla.
+        </p>
+        <p class="feature__desc">
+          Reduce la fricción en la decisión de compra: la clienta se lleva la prenda o reserva la
+          colección sin desembolsar el total de inmediato, lo que ayuda a captar ventas que de otro
+          modo se aplazarían o se perderían.
+        </p>
+        <div class="feature__docs">
+          <a class="feature__doc" href="https://help.shopify.com/en/manual/products/purchase-options/try-before-you-buy/setup" target="_blank" rel="noopener">Try Before You Buy</a>
+          <a class="feature__doc" href="https://help.shopify.com/en/manual/products/purchase-options/pre-orders/setup" target="_blank" rel="noopener">Preventas</a>
+        </div>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Try Before You Buy</span>
+          Enviar 2 tallas de unos vaqueros para probar en casa. Se cobra el importe total
+          14 días después, solo por la talla que la clienta decide quedarse.
+        </li>
+        <li>
+          <span class="ex__label">Preventa</span>
+          Lanzar una colección cápsula de verano cobrando un 10% de depósito en el carrito y
+          el 90% restante en el momento del envío.
+        </li>
+      </ul>
+    </article>
+
+    <article class="feature feature--media reveal">
+      <div class="feature__body">
+        <div class="feature__meta">
+          <span class="tag">Nested Cart Lines</span>
+          <h3 class="feature__title">Artículos anidados en el carrito</h3>
+          <p class="feature__desc">
+            Establece relaciones "padre-hijo" entre líneas del carrito, mostrando un complemento o
+            servicio visualmente vinculado y justo debajo del producto principal al que pertenece.
+          </p>
+          <p class="feature__desc">
+            Ideal para añadidos como garantías, personalización, cuidado de la prenda o empaquetado
+            de regalo: la clienta entiende de un vistazo qué acompaña a qué, lo que hace el upsell
+            más natural y aumenta la percepción de servicio.
+          </p>
+          <a class="feature__doc" href="https://shopify.dev/docs/apps/build/product-merchandising/nested-cart-lines" target="_blank" rel="noopener">Documentación oficial</a>
+        </div>
+        <ul class="feature__examples">
+          <li>
+            <span class="ex__label">Complemento</span>
+            Al añadir un abrigo delicado, ofrecer un "Spray protector de tejidos" anidado
+            justo debajo de la prenda.
+          </li>
+          <li>
+            <span class="ex__label">Servicio</span>
+            Añadir "Empaquetado de Regalo Premium" asociado específicamente a una prenda.
+          </li>
+        </ul>
+      </div>
+      <figure class="feature__media">
+        <img src="nested-lines.webp" alt="Resumen de pedido de Shopify con un artículo de personalización anidado bajo el producto principal" loading="lazy" />
+        <figcaption>El complemento aparece vinculado y sangrado bajo el producto al que pertenece.</figcaption>
+      </figure>
+    </article>
+  </section>
+
+  <!-- 3. FIDELIZACIÓN -->
+  <section class="block" id="fidelizacion">
+    <div class="block__head reveal">
+      <span class="block__index">03 — Retención, fidelización y devoluciones</span>
+      <h2>Que el valor se quede en casa</h2>
+    </div>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag">Store Credit</span>
+        <h3 class="feature__title">Crédito en tienda</h3>
+        <p class="feature__desc">
+          Sistema cerrado que emite saldo a favor de la clienta en lugar de reembolsos en efectivo.
+          El crédito se gestiona desde la ficha del cliente, con fecha de caducidad opcional, y la
+          clienta lo ve y lo canjea en su cuenta, tanto online como en la tienda física vía POS.
+        </p>
+        <p class="feature__desc">
+          El dinero permanece dentro del ecosistema de Brownie: cada devolución se convierte en una
+          venta futura prácticamente garantizada, en lugar de una salida de caja.
+        </p>
+        <a class="feature__doc" href="https://help.shopify.com/en/manual/customers/store-credit" target="_blank" rel="noopener">Documentación oficial</a>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Incentivo de devolución</span>
+          Ante la devolución de un jersey, ofrecer un 100% en efectivo o un 110% si elige
+          crédito en tienda, garantizando una futura venta.
+        </li>
+        <li>
+          <span class="ex__label">Cumpleaños</span>
+          Regalar 10&nbsp;€ de crédito en tienda de forma automatizada por su cumpleaños.
+        </li>
+      </ul>
+    </article>
+
+    <article class="feature feature--media reveal">
+      <div class="feature__body">
+        <div class="feature__meta">
+          <span class="tag">Product Offers · Checkout</span>
+          <h3 class="feature__title">Ofertas pre y post compra</h3>
+          <p class="feature__desc">
+            Ventas adicionales (upsells) que se muestran justo antes de pagar o, sobre todo,
+            inmediatamente después de confirmar el pedido, cuando la clienta ya ha introducido sus
+            datos de pago y aceptar es cuestión de un solo clic.
+          </p>
+          <p class="feature__desc">
+            Añade ingresos incrementales sin fricción ni riesgo de abandonar el carrito, porque la
+            compra principal ya está cerrada. Shopify recomienda un máximo de tres ofertas
+            consecutivas y opciones claras de aceptar o rechazar.
+          </p>
+          <a class="feature__doc" href="https://shopify.dev/docs/apps/build/checkout/product-offers" target="_blank" rel="noopener">Documentación oficial</a>
+        </div>
+        <ul class="feature__examples">
+          <li>
+            <span class="ex__label">Pre-compra</span>
+            Antes de pagar, sugerir un complemento relacionado que se añade al pedido sin salir
+            del checkout.
+          </li>
+          <li>
+            <span class="ex__label">Post-compra</span>
+            Tras pagar unos botines, una pantalla de un solo clic: "¡Añade estos calcetines a
+            juego con un 20% de descuento a tu pedido actual!".
+          </li>
+        </ul>
+      </div>
+      <div class="feature__media-row">
+        <figure class="feature__media">
+          <video src="pre-purchase.webm" autoplay loop muted playsinline></video>
+          <figcaption>Pre-compra · oferta mostrada durante el checkout.</figcaption>
+        </figure>
+        <figure class="feature__media">
+          <img src="post-purchase.webp" alt="Pantalla post-compra de Shopify ofreciendo añadir un producto con descuento en un clic" loading="lazy" />
+          <figcaption>Post-compra · upsell de un clic tras confirmar el pedido.</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag">Gift Cards</span>
+        <h3 class="feature__title">Tarjetas regalo</h3>
+        <p class="feature__desc">
+          Creación y venta de tarjetas prepago, físicas o digitales, disponibles en todos los planes
+          de Shopify y utilizables tanto en la tienda online como en el punto de venta físico.
+        </p>
+        <p class="feature__desc">
+          Adelantan ingresos, atraen a nuevas clientas (quien recibe la tarjeta) y reducen las
+          devoluciones por talla o gusto en campañas de regalo: la persona destinataria elige
+          exactamente lo que quiere.
+        </p>
+        <a class="feature__doc" href="https://help.shopify.com/en/manual/products/gift-card-products" target="_blank" rel="noopener">Documentación oficial</a>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Campaña de Navidad</span>
+          Vender tarjetas digitales de Brownie para reducir la tasa de devoluciones por regalos
+          que no encajan en talla o gustos.
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- 4. MARKETING -->
+  <section class="block block--alt" id="marketing">
+    <div class="block__head reveal">
+      <span class="block__index">04 — Expansión y marketing omnicanal</span>
+      <h2>Llegar más lejos</h2>
+    </div>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag">SMS &amp; Email</span>
+        <h3 class="feature__title">Shopify Messaging</h3>
+        <p class="feature__desc">
+          Herramienta nativa para crear, enviar y medir campañas personalizadas de Email y SMS
+          directamente desde el admin, sin depender de plataformas externas. Incluye automatizaciones
+          que se disparan según el comportamiento de la clienta (carrito abandonado, navegación…).
+        </p>
+        <p class="feature__desc">
+          Al vivir dentro de Shopify, aprovecha los datos de cliente y de catálogo ya existentes para
+          segmentar con precisión, con un coste calculado según el volumen de mensajes enviados.
+        </p>
+        <a class="feature__doc" href="https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging" target="_blank" rel="noopener">Documentación oficial</a>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Acceso VIP</span>
+          Enviar un SMS segmentado a las clientas VIP anunciando el acceso anticipado a las
+          Rebajas.
+        </li>
+      </ul>
+    </article>
+
+    <article class="feature reveal">
+      <div class="feature__meta">
+        <span class="tag">Shopify Collective</span>
+        <h3 class="feature__title">Alianzas entre marcas</h3>
+        <p class="feature__desc">
+          Conecta a Brownie con otras tiendas Shopify para vender productos complementarios entre sí,
+          sin coste inicial ni compromiso de inventario. Brownie puede actuar a la vez como vendedora
+          y como proveedora.
+        </p>
+        <p class="feature__desc">
+          Tras una venta, el pedido se enruta automáticamente al socio, que lo envía directamente a
+          la clienta con sincronización automática del seguimiento. Amplía el catálogo y el ticket
+          medio sin riesgo logístico ni financiero.
+        </p>
+        <a class="feature__doc" href="https://help.shopify.com/en/manual/online-sales-channels/shopify-collective" target="_blank" rel="noopener">Documentación oficial</a>
+      </div>
+      <ul class="feature__examples">
+        <li>
+          <span class="ex__label">Venta cruzada</span>
+          Brownie vende gafas de sol de una marca amiga de accesorios en su web. Al producirse
+          la venta, el pedido se enruta y el socio lo envía directamente a la clienta.
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- CIERRE -->
+  <section class="outro">
+    <div class="outro__inner reveal">
+      <p class="outro__eyebrow">Siguiente paso</p>
+      <h2>Construyamos juntas la próxima etapa de Brownie</h2>
+      <p class="outro__text">
+        Cada una de estas funcionalidades puede priorizarse según los objetivos de la temporada.
+        Estaremos encantados de definir un plan de implementación a medida.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>Brownie</span>
+    <span>Propuesta de funcionalidades Shopify · 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
