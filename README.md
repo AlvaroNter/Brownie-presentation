@@ -4,8 +4,9 @@ Sitio web de una sola página (scroll) que resume la propuesta de nuevas
 funcionalidades de Shopify para Brownie.
 
 Bloques: merchandising, pagos, fidelización (nativa), **fidelización avanzada
-y referidos (apps: Smile.io, LoyaltyLion, Yotpo, ReferralCandy, Growave)** y
-marketing omnicanal.
+y referidos (apps: Smile.io, LoyaltyLion, Yotpo, ReferralCandy, Growave)**,
+marketing omnicanal y **reseñas / prueba social (apps: Judge.me, Loox, Okendo,
+Yotpo)**.
 
 ## Archivos
 - `index.html` — estructura y contenido

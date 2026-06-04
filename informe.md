@@ -95,3 +95,23 @@ Herramienta nativa para crear, enviar y hacer seguimiento de campañas personali
 Permite a las marcas asociarse con otras tiendas Shopify para vender productos complementarios mutuamente sin asumir costes ni riesgos de inventario.
 
 - **Ejemplo Retail 1:** Brownie puede vender gafas de sol de una marca amiga de accesorios directamente en su web. Cuando hay una venta, el pedido se enruta y el socio externo lo envía directamente a la clienta.
+
+## 6. Reseñas y Prueba Social (Apps)
+
+Las reseñas con foto y vídeo son el contenido más persuasivo de una ficha de producto. Apps especializadas las recopilan automáticamente tras la compra y las muestran en la ficha, en galerías y en Google.
+
+### Por qué importa (mercado)
+
+- **98%** de las personas consulta reseñas antes de comprar; el **93%** reconoce que influyen en su decisión.
+- Las fichas con UGC (contenido de clientas) convierten hasta **+161%** más que las que no lo tienen.
+- Los productos con **11–30 reseñas** convierten **+68%** mejor que los que no tienen ninguna.
+- La clienta percibe una reseña con foto real como **3× más** auténtica que el contenido de marca.
+
+### Reseñas con Foto y Vídeo (Reviews)
+
+Solicitud automática de reseña tras el pedido, con incentivo a adjuntar foto/vídeo de la prenda puesta. Publicación en ficha, galerías de "looks reales" y estrellas en Google. Resuelve dudas de talla/caída, reduce devoluciones y aporta prueba social. Apps como Okendo y Yotpo unen reseñas y fidelización: reseñar suma puntos al "Brownie Club".
+
+- **Apps de ejemplo:** Judge.me (mejor valor, gratis+), Loox (visual, foto/vídeo), Okendo y Yotpo (premium, combinan reviews + loyalty).
+- **Ejemplo Retail 1 (Looks reales):** Galería "Cómo lo llevan" en la ficha con fotos de clientas reales vistiendo la prenda.
+- **Ejemplo Retail 2 (Reseña + puntos):** 50 puntos por reseña escrita y 100 si incluye foto de la prenda puesta.
+- **Ejemplo Retail 3 (Google):** Valoraciones mostradas como estrellas en resultados y anuncios para aumentar el clic.
