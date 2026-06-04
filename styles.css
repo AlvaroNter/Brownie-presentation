@@ -158,10 +158,11 @@ em { font-style: italic; color: var(--caramel-dark); }
 }
 .pillars__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2.4rem;
 }
-@media (max-width: 900px) { .pillars__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 1080px) { .pillars__grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px) { .pillars__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 540px) { .pillars__grid { grid-template-columns: 1fr; } }
 .pillar { border-top: 1px solid var(--line); padding-top: 1.4rem; }
 .pillar__num {
@@ -198,6 +199,39 @@ em { font-style: italic; color: var(--caramel-dark); }
 }
 .block__head h2 {
   font-size: clamp(2.2rem, 5vw, 3.6rem);
+}
+.block__lead {
+  font-size: clamp(1rem, 1.4vw, 1.12rem);
+  color: var(--espresso-soft);
+  max-width: 640px;
+  margin-top: 1.4rem;
+}
+
+/* ---------- STATS ---------- */
+.stats {
+  max-width: var(--max);
+  margin: 0 auto clamp(1rem, 3vw, 2rem);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding: clamp(2rem, 4vw, 3rem) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+@media (max-width: 760px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 420px) { .stats { grid-template-columns: 1fr; } }
+.stat__num {
+  display: block;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--caramel-dark);
+  margin-bottom: 0.7rem;
+}
+.stat p {
+  font-size: 0.9rem;
+  color: var(--espresso-soft);
 }
 
 /* ---------- FEATURE ---------- */

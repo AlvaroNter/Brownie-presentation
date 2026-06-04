@@ -54,7 +54,35 @@ Creación y venta de tarjetas prepago (físicas o digitales) que pueden usarse t
 
 - **Ejemplo Retail 1:** Vender tarjetas de regalo digitales de Brownie durante la campaña de Navidad para reducir la tasa de devoluciones por regalos que no encajan en talla o gustos.
 
-## 4. Expansión y Marketing Omnicanal
+## 4. Fidelización Avanzada y Referidos (Apps)
+
+Más allá del crédito en tienda y las tarjetas regalo nativas, el ecosistema Shopify se integra con aplicaciones especializadas que construyen un programa de fidelización completo: puntos, niveles VIP y referidos.
+
+### Por qué importa (mercado)
+
+- Marcas de moda registran hasta un **+64% en tasa de recompra** tras lanzar un programa de fidelización con recompensas canjeables.
+- Los miembros activos de un programa gastan en torno a **3× más** que las clientas no inscritas.
+- Las clientas captadas por referido aportan **~16% más de LTV** que las de otros canales (Wharton) y un **92%** de las personas confía más en la recomendación de un conocido que en un anuncio.
+
+### Programa de Puntos y Niveles VIP (Loyalty Programs)
+
+Recompensa a la clienta por comprar, registrarse, reseñar o seguir en redes, con puntos canjeables por descuentos o ventajas. Los niveles VIP premian el gasto acumulado con beneficios crecientes. Se integran de forma nativa con Shopify (online + POS).
+
+- **Apps de ejemplo:** Smile.io, LoyaltyLion, Yotpo Loyalty.
+- **Ejemplo Retail 1 (Puntos):** "Brownie Club" — 1 punto por euro; 200 puntos = vale de 10€. Puntos extra por reseña o seguimiento en Instagram.
+- **Ejemplo Retail 2 (VIP):** Tres niveles según gasto anual; envío gratis en Gold, acceso anticipado a rebajas y nuevas colecciones en Platinum.
+- **Ejemplo Retail 3 (Cumpleaños):** Puntos de regalo automáticos por cumpleaños o aniversario como miembro.
+
+### Programa de Referidos (Referrals)
+
+Convierte a las clientas satisfechas en canal de captación mediante el modelo *give & get*. Adquisición rentable y de alta calidad: las clientas referidas son más fieles, gastan más y reducen el CAC.
+
+- **Apps de ejemplo:** ReferralCandy, Smile.io, Growave.
+- **Ejemplo Retail 1 (Give & Get):** "Regala 10€ a tu amiga y llévate 10€." La amiga estrena descuento de bienvenida; Brownie capta clienta nueva sin coste publicitario.
+- **Ejemplo Retail 2 (Integración):** Cada referido exitoso suma puntos al "Brownie Club", uniendo fidelización y captación (Smile.io / Growave lo combinan en una sola app).
+- **Ejemplo Retail 3 (Lanzamiento):** Duplicar temporalmente la recompensa por referido durante el lanzamiento de una colección cápsula.
+
+## 5. Expansión y Marketing Omnicanal
 
 ### Marketing Integrado: Shopify Messaging (SMS y Email)
 
