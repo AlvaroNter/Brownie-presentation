@@ -115,3 +115,29 @@ Solicitud automática de reseña tras el pedido, con incentivo a adjuntar foto/v
 - **Ejemplo Retail 1 (Looks reales):** Galería "Cómo lo llevan" en la ficha con fotos de clientas reales vistiendo la prenda.
 - **Ejemplo Retail 2 (Reseña + puntos):** 50 puntos por reseña escrita y 100 si incluye foto de la prenda puesta.
 - **Ejemplo Retail 3 (Google):** Valoraciones mostradas como estrellas en resultados y anuncios para aumentar el clic.
+
+## 7. Instagram y Comercio Social
+
+Instagram es el escaparate natural de la moda. Conectar ese contenido con la tienda elimina el salto entre ver una prenda y comprarla.
+
+### Por qué importa (mercado)
+
+- Las marcas que **etiquetan productos** logran de media **+37%** de ventas frente a las que no, y **+45%** de visitas a la ficha.
+- **130M** de personas pulsan cada mes una etiqueta de producto en Instagram Shopping.
+- El **46%** de quienes compran en redes adquieren moda cada mes; es la categoría más buscada en Instagram.
+
+### Instagram Shopping (Nativo)
+
+El canal de Instagram en Shopify sincroniza el catálogo con la cuenta de Brownie. Posts, Reels y Stories pueden etiquetar productos que llevan a su ficha o permiten la compra en la app; inventario y precios se mantienen al día automáticamente.
+
+- **Documentación:** [Instagram Shopping en Shopify](https://help.shopify.com/en/manual/online-sales-channels/social-commerce/facebook-instagram-by-meta/instagram)
+- **Ejemplo Retail 1 (Post etiquetado):** Foto del nuevo vestido con etiqueta de producto; un toque lleva a la ficha o a comprar sin salir de Instagram.
+- **Ejemplo Retail 2 (Reels/Stories):** Etiquetar las prendas de un Reel de "looks de temporada" para convertir el contenido en venta directa.
+
+### Feed de Instagram en la Tienda (Apps)
+
+Muestran el feed de Instagram (fotos, Reels, UGC) dentro de la web en galerías que se sincronizan solas; cada imagen puede llevar etiqueta de producto y botón de compra. Aporta prueba social y frescura sin esfuerzo de mantenimiento.
+
+- **Apps de ejemplo:** Instafeed (Mintt Studio), Instafeed: For Instagram Feed.
+- **Ejemplo Retail 1 (Galería shoppable):** Carrusel "Síguenos en Instagram" en la home donde cada foto enlaza con la prenda que aparece.
+- **Ejemplo Retail 2 (UGC):** Mostrar fotos reales de clientas etiquetando a Brownie, uniendo redes y prueba social en la tienda.

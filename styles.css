@@ -63,7 +63,7 @@ em { font-style: italic; color: var(--caramel-dark); }
 }
 .nav__links {
   display: flex;
-  gap: clamp(1rem, 2.5vw, 2.4rem);
+  gap: clamp(0.8rem, 2vw, 2rem);
 }
 .nav__links a {
   font-size: 0.78rem;
